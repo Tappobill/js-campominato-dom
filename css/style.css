@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#griglia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.quadrato {
+    border: 1px solid black;
+    width: calc(100%/10);
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    background-color: white;
+}
+
+.bomba-active{
+    background-color: red;
+}
+
+.container-custom{
+    width: 80%;
+    margin: auto;
+}
+
+.button-custom{
+    width: 10%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: bold;
+}
