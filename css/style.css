@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#griglia{
+#griglia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,20 +22,20 @@
     justify-content: center;
 }
 
-.active{
+.active {
     background-color: white;
 }
 
-.bomba-active{
+.bomba-active {
     background-color: red;
 }
 
-.container-custom{
+.container-custom {
     width: 80%;
     margin: auto;
 }
 
-.button-custom{
+.button-custom {
     width: 10%;
     border: 1px solid gray;
     border-radius: 5px;
